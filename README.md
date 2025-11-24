@@ -4,10 +4,10 @@ This project is a full graphical implementation of **Mastermind**, created as my
 
 The game is implemented entirely using the **Canvas** graphics library provided by the course. Every peg, every click, and every feedback indicator is drawn manually on the screen using coordinate logic, shapes, and event-based interactions.
 
-**See the Project in Action:**
+**See the Project in Action:**  
 You can play the original version of the game directly in Stanford’s online IDE here:  
-https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
-Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but most of the touch devices (like my iPhone) may fail to register peg-selection clicks accurately.
+https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd  
+Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but many touch devices (like my iPhone) may fail to register peg-selection taps accurately.
 
 ---
 
