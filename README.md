@@ -4,8 +4,10 @@ This project is a full graphical implementation of **Mastermind**, created as my
 
 The game is implemented entirely using the **Canvas** graphics library provided by the course. Every peg, every click, and every feedback indicator is drawn manually on the screen using coordinate logic, shapes, and event-based interactions.
 
-**Play the Game Online:**  
+**See the Project in Action:**
+You can play the original version of the game directly in Stanford’s online IDE here:  
 https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
+Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but most of the touch devices (like my iPhone) may fail to register peg-selection clicks accurately.
 
 ---
 
@@ -58,7 +60,7 @@ These are stored as numeric indices (0–5), but also generate one-hot vectors t
 Three helper functions draw elements on the board:
 - `draw_peg()` — main colored guess circles  
 - `draw_feedback_peg()` — small red/yellow/green pegs  
-- `draw_guess_number()` — (unused) text helper  
+- `draw_guess_number()` — text helper for guess row numbers
 
 ### 🟡 Feedback Algorithm
 For each guess:
@@ -89,11 +91,11 @@ To run it locally, you would need:
 - A compatible Canvas implementation or an equivalent graphics wrapper (which I couldn't find any)
 (because Canvas is not the same as Tkinter)
 
-For most users, the easiest way is simply running it in the original CIP environment.
-- Go to CIP public self-guided course: 
+For most users, the easiest way is simply running it in the original CIP environment:
+- If you don't have a CIP account, go to CIP public self-guided course following the link below: 
 https://codeinplace.stanford.edu/public/studenthome
 - Create an account
-- Go to Code -> Your Own
+- Login to your CIP account and go to Code -> Your Own
 - Create a New Graphics Project
 - Copy & paste mastermind.py
 - Run and/or share the project
