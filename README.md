@@ -1,8 +1,11 @@
-# 🎮 Mastermind — Stanford Code in Place (CS106A) Final Project
+# 🎮 Baris' Mastermind — Stanford Code in Place (CS106A) Final Project
 
 This project is a full graphical implementation of **Mastermind**, created as my final project for **Stanford Code in Place (CS106A) 2023**. It was my first experience building a larger, interactive program, and it became a foundational milestone in my programming journey.
 
 The game is implemented entirely using the **Canvas** graphics library provided by the course. Every peg, every click, and every feedback indicator is drawn manually on the screen using coordinate logic, shapes, and event-based interactions.
+
+**Play the Game Online:**  
+https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
 
 ---
 
@@ -142,7 +145,7 @@ Each project shows how far I’ve come and how every step built toward the next.
 
 ## 🔗 Links
 
-**Full Project:**  
+**Play the Game Online:**  
 https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
 
 **Related Medium Article:**  
