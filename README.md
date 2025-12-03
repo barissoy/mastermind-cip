@@ -159,7 +159,7 @@ Each project shows how far I’ve come and how every step built toward the next.
 ## 🔗 Links
 
 **Play the Game Online:**  
-https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
+https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd  
 Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but many smaller touch devices (like my iPhone) may fail to register peg-selection taps reliably.
 
 **Related Medium Article:**  
