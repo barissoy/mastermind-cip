@@ -7,7 +7,20 @@ The game is implemented entirely using the **Canvas** graphics library provided 
 **See the Project in Action:**  
 You can play the original version of the game directly in Stanford’s online IDE here:  
 https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd  
-Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but many touch devices (like my iPhone) may fail to register peg-selection taps accurately.
+Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but many smaller touch devices (like my iPhone) may fail to register peg-selection taps reliably.
+
+---
+
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [How the Game Works](#-how-the-game-works-internally)
+- [Running the Project](#-running-the-project)
+- [File Structure](#-file-structure)
+- [Reflections](#-reflections)
+- [Part of a Learning Journey](#-part-of-a-learning-journey)
+- [Links](#-links)
+- [License](#-license)
 
 ---
 
@@ -32,7 +45,7 @@ The player interacts with the game entirely through **mouse clicks**, selecting 
 
 ### 🎯 Visual Game Board
 The interface includes:
-- A top **color palette** (Teal, Magenta, Lime, Blue, Pink, Orange)
+- A **color palette** at the bottom (Teal, Magenta, Lime, Blue, Pink, Orange)
 - Eight **rows of guess slots**
 - Four **feedback slots** per row
 - A dynamically drawn interface updated on each guess
@@ -82,24 +95,22 @@ The logic is intentionally straightforward and procedural—reflecting the progr
 ## 🚀 Running the Project
 
 This program runs inside the **Stanford Code in Place online IDE**, which includes:
-- The `canvas` graphics library
+- The `canvas` graphics library (Stanford's proprietary library for Stanford IDE only)
 - Built-in event loop for click handling  
 - Display window for drawing shapes
 
 To run it locally, you would need:
 - Python  
 - A compatible Canvas implementation or an equivalent graphics wrapper (which I couldn't find any)
-(because Canvas is not the same as Tkinter)
 
 For most users, the easiest way is simply running it in the original CIP environment:
-- If you don't have a CIP account, go to CIP public self-guided course following the link below: 
+- If you don't have a CIP account, you can use CIP Self-Guided Course environment following the link below: 
 https://codeinplace.stanford.edu/public/studenthome
 - Create an account
-- Login to your CIP account and go to Code -> Your Own
-- Create a New Graphics Project
+- Log in and navigate to **Code -> Your Own**
+- Create a **New Graphics Project**
 - Copy & paste mastermind.py
 - Run and/or share the project
-
 
 ---
 
@@ -149,6 +160,7 @@ Each project shows how far I’ve come and how every step built toward the next.
 
 **Play the Game Online:**  
 https://codeinplace.stanford.edu/cip3/share/I7bsgEQPpWdXBGMZ9TCd
+Note: The Stanford IDE is optimized for desktop browsers. It may work on tablets (like my iPad), but many smaller touch devices (like my iPhone) may fail to register peg-selection taps reliably.
 
 **Related Medium Article:**  
 _From Stanford Code in Place (CS106A) to Harvard CS50P — My First Real Project: Re-Creating Mastermind_  
